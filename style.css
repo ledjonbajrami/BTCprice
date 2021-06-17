@@ -33,7 +33,7 @@ body {
 }
 .inner-card2 {
   position: relative;
-  color: rgb(243, 4, 4);
+  color: rgb(12, 243, 4);
   display: grid;
   align-items: center;
   border-radius: 30px;
