@@ -1,0 +1,97 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #e5e5e5;
+  display: grid;
+  place-items: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #000000;
+  border-radius: 50px;
+  color: #e5e5e5;
+
+  font-size: medium;
+
+  font-family: "Montserrat", sans-serif;
+  display: grid;
+  align-items: center;
+}
+.inner-card {
+  position: relative;
+
+  display: grid;
+  align-items: center;
+  border-radius: 30px;
+  border: 10px #222121;
+  box-shadow: inset 100px 100px 100px 200px #312f2f;
+  box-sizing: content-box;
+}
+.inner-card2 {
+  position: relative;
+  color: rgb(243, 4, 4);
+  display: grid;
+  align-items: center;
+  border-radius: 30px;
+  border: 20px #222121;
+  box-shadow: inset 100px 100px 100px 200px #222121;
+
+  box-sizing: border-box; /* Include padding and border in element's width and height */
+}
+
+.h1 {
+  display: grid;
+  font-size: xx-large;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+#heading {
+  font-size: 55px;
+  color: #2b304d;
+}
+
+.temp {
+  place-items: center;
+}
+
+.temp-details > p > span,
+.grey {
+  color: #a3acc1;
+  font-size: 12px;
+}
+
+.fa {
+  color: #a5a5b1;
+}
+
+*:focus {
+  outline: none;
+}
+
+.icon {
+  margin: 0 auto;
+  text-align: center;
+
+  border-radius: 40px;
+  padding: 15x 100px;
+}
+div {
+  font-size: x-large;
+
+  font-family: "Montserrat", sans-serif;
+}
+h6 {
+  display: grid;
+  align-items: center;
+  place-items: center;
+}
+
+footer {
+  display: grid;
+  align-items: flex-end;
+  color: #2b2b2f;
+}
