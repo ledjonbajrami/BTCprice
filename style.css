@@ -94,11 +94,7 @@ h6 {
   place-items: center;
 }
 
-footer {
-  display: grid;
-  align-items: flex-end;
-  color: #2b2b2f;
-}
+
 
 .text {
   text-transform: uppercase;
