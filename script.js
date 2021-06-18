@@ -11,13 +11,13 @@ $.getJSON(
     var change = data.data.market_data.percent_change_usd_last_24_hours ;    /* done */
     $(".change").append(change)
 
-    var high = Number.parseFloat(data.data.all_time_high.price).toFixed(2) ;    /* done */
+    var high = Number.parseFloat(data.data.all_time_high.price).toFixed(2)  ;    /* done */
     $(".high").append(high + "$")
-    var day = data.data.all_time_high.days_since ;    /* done */
+    var day = data.data.all_time_high.at ;    /* done */
     $(".day").append(day)
     var low = data.data.cycle_low.price ;    /* done */
     $(".low").append(low + "$")
-    var day2 = data.data.cycle_low.days_since ;    /* done */
+    var day2 = data.data.cycle_low.at ;    /* done */
     $(".day2").append(day2)
 
     var trade = data.data.market_data.last_trade_at ;    /* done */
