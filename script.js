@@ -26,10 +26,7 @@ $.getJSON(
     $(".marketcap").append(marketcap + "$")
     var volume = data.data.market_data.real_volume_last_24_hours ;    /* done */
     $(".volume").append(volume) 
-    var borrow = data.data.lend_rates.blockfi ;    /* done */
-    $(".borrow").append(borrow + "%")
-     var addresses = data.data.on_chain_data.active_addresses ;    /* done */
-    $(".addresses").append(addresses)
+
         
     }
     );
